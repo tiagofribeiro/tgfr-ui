@@ -1,1 +1,1 @@
-export { default as Text } from "./components/Text";
+export { default as TText } from "./components/TText";

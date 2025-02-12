@@ -1,10 +1,30 @@
+# tgfr-ui
+
+<br>
+
 ![logo](/src/logo.svg)
 
 <br>
 
-## TGFR-UI
+Biblioteca de componentes pré-configurados.
 
-Biblioteca de componentes usados em diferentes projetos.
+<br>
+
+### Uso
+
+Desenvolvimento:
+```bash
+npm link tgfr-ui
+# ou
+yarn link tgfr-ui
+```
+
+Instalação:
+```bash
+npm install ./tgfr-ui
+# ou
+yarn add file:./tgfr-ui
+```
 
 <br>
 

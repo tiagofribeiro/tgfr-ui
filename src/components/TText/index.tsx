@@ -1,7 +1,7 @@
 import { Body, Header } from "./style";
 import { TextTypes } from "./types";
 
-const Text = ({
+const TText = ({
   title,
   as,
   bold,
@@ -38,4 +38,4 @@ const Text = ({
     </Body>
 };
 
-export default Text;
+export default TText;

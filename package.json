@@ -1,14 +1,19 @@
 {
   "name": "tgfr-ui",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./TText": "./dist/components/TText/index.js"
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Tiago Ribeiro",
+  "license": "MIT",
+  "description": "Biblioteca de componentes pré-configurados",
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18",

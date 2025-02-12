@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
         "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": ".",
         "module": "ESNext",
         "target": "ES5",
         "lib": [
@@ -8,13 +10,15 @@
             "ESNext"
         ],
         "paths": {
-            "@/*": [
-                "./src/*"
+            "tgfr-ui": [
+                "./dist"
             ]
         },
         "jsx": "react-jsx",
         "declaration": true,
-        "moduleResolution": "Node"
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true
     },
     "include": [
         "src"
