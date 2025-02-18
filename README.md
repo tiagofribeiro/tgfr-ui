@@ -28,6 +28,10 @@ yarn add file:./tgfr-ui
 
 <br>
 
+> Para que a aplicação reflita automaticamente as mudanças na biblioteca, use `npm/yarn run watch`
+
+<br>
+
 ### Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).

@@ -9,7 +9,8 @@
     "./TText": "./dist/components/TText/index.js"
   },
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "watch": "tsc -b --watch"
   },
   "keywords": [],
   "author": "Tiago Ribeiro",

@@ -16,6 +16,7 @@
         },
         "jsx": "react-jsx",
         "declaration": true,
+        "emitDeclarationOnly": false,
         "esModuleInterop": true,
         "moduleResolution": "Node",
         "allowSyntheticDefaultImports": true

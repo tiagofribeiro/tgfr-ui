@@ -23,8 +23,8 @@ const Header = styled.h1<TTextHeaderTypes>(({
         @media screen and (max-width: 768px) {
             font-size: 40px;
             max-width: 80%;
-        };
-    `}
+        }
+    `};
 
     ${as === 'h2' && `
         font-size: 48px;
@@ -36,8 +36,8 @@ const Header = styled.h1<TTextHeaderTypes>(({
         
         @media screen and (max-width: 768px) {
             font-size: 30px;
-        };
-    `}
+        }
+    `};
 
     ${as === 'h3' && `
         font-size: 32px;
@@ -45,8 +45,8 @@ const Header = styled.h1<TTextHeaderTypes>(({
 
         @media screen and (max-width: 768px) {
             font-size: 24px;
-        };
-    `}
+        }
+    `};
 
     ${as === 'h4' && `
         font-size: 28px;
@@ -54,8 +54,8 @@ const Header = styled.h1<TTextHeaderTypes>(({
 
         @media screen and (max-width: 768px) {
             font-size: 20px;
-        };
-    `}
+        }
+    `};
 `);
 
 const Body = styled.span<TTextBodyTypes>(({
@@ -72,18 +72,18 @@ const Body = styled.span<TTextBodyTypes>(({
     margin: ${$marginY}px ${$marginX}px;
     text-align: ${$alignment};
     font-size: ${$primary ? '16' : '14'}px;
-    font-weight: ${$bold ? 700 : 400};
+    font-weight: ${$bold ? `700` : `400`};
     
-    ${$fontSize && `font-size: ${$fontSize}px;`}
-    ${$color && `color: ${$color};`}
+    ${$fontSize && `font-size: ${$fontSize}px`};
+    ${$color && `color: ${$color}`};
 
     @media screen and (max-width: 768px) {
         font-size: 14px;
 
-        ${$fontSize == 60 && `font-size: 40px;`}
-        ${$fontSize == 48 && `font-size: 30px;`}
-        ${$fontSize == 32 && `font-size: 24px;`}
-        ${$fontSize == 28 && `font-size: 20px;`}
+        ${$fontSize == 60 && `font-size: 40px`};
+        ${$fontSize == 48 && `font-size: 30px`};
+        ${$fontSize == 32 && `font-size: 24px`};
+        ${$fontSize == 28 && `font-size: 20px`};
     }
 `);
 
