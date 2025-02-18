@@ -1,9 +1,9 @@
 'use client'
 
 import styled from "styled-components";
-import { TextBodyTypes, TextTitleTypes } from "./types";
+import { TTextBodyTypes, TTextHeaderTypes } from "./types";
 
-const Header = styled.h1<TextTitleTypes>(({
+const Header = styled.h1<TTextHeaderTypes>(({
     as,
     $maxW = 100,
     $marginX = 0,
@@ -58,7 +58,7 @@ const Header = styled.h1<TextTitleTypes>(({
     `}
 `);
 
-const Body = styled.span<TextBodyTypes>(({
+const Body = styled.span<TTextBodyTypes>(({
     $bold,
     $primary,
     $fontSize,

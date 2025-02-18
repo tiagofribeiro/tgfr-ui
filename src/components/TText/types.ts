@@ -1,6 +1,6 @@
 import { KnownTarget } from "styled-components/dist/types";
 
-export interface TextTypes {
+export interface TTextTypes {
     as?: KnownTarget;
     bold?: boolean;
     title?: boolean,
@@ -14,7 +14,7 @@ export interface TextTypes {
     children: React.ReactNode;
 }
 
-export interface TextTitleTypes {
+export interface TTextHeaderTypes {
     as?: KnownTarget;
     $maxW?: number;
     $marginX?: number;
@@ -23,7 +23,7 @@ export interface TextTitleTypes {
     $color?: string;
 }
 
-export interface TextBodyTypes extends TextTitleTypes {
+export interface TTextBodyTypes extends TTextHeaderTypes {
     $bold?: boolean;
     $primary?: boolean;
     $fontSize?: number;

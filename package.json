@@ -5,6 +5,7 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
+    "./TCard": "./dist/components/TCard/index.js",
     "./TText": "./dist/components/TText/index.js"
   },
   "scripts": {
